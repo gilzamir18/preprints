@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilzamir's Preprints</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="imgs/profile.jpg" alt="Foto de Perfil" class="avatar">
+                <h1>Gilzamir Gomes</h1>
+                <p class="subtitle">Artificial Intelligence Researcher at State University of the Acaraú Valey</p>
+                
+                <div class="social-links">
+                    <a href="gilzamir_gomes@uvanet.br"><i class="fas fa-envelope"></i> mail</a>
+                    <a href="https://github.com/gilzamir18"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=Ru5Dnn4AAAAJ&hl=pt-BR"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                </div>
+            </div>
+        </header>
+
+        <hr>
+
+        <section id="preprints">
+            <h2><i class="fas fa-file-alt"></i> Preprints </h2>
+
+            <article class="paper">
+                <span class="date">Jan 2026</span>
+                <h3>HomeostaticEnv: A Multi-Resource Environment for Homeostatic Reinforcement Learning Experiments</h3>
+                <p class="authors"><strong>Gilzamir Gomes</strong></p>
+                
+                <div class="actions">
+                    <a href="pdfs/homeostaticenv.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> PDF </a>
+                    <a href="https://github.com/gilzamir18/regulation_world" class="btn btn-secondary"><i class="fab fa-github"></i> Source-Code </a>
+                </div>
+
+                <details>
+                    <summary>Read (Abstract)</summary>
+                    <p class="abstract-text">
+                        Homeostatic regulation—the ability to maintain internal physiological variables within
+                        a viable range—is a fundamental property of living organisms. In the context of Artificial
+                        Intelligence, Homeostatic Reinforcement Learning (HRL) applies these biological principles
+                        to create agents capable of autonomous self-regulation. However, a significant challenge in
+                        HRL research is the lack of standardized environments that specifically test an agent’s abil-
+                        ity to manage high-dimensional physiological state spaces under constant decay. Critically,
+                        high-dimensional resource management implies an equally high-dimensional continuous
+                        action space, creating a complex control problem. This paper introduces HomeostaticEnv,
+                        a continuous control environment designed to simulate multi-resource homeostatic regula-
+                        tion. We detail the environment’s dynamics and formalize three distinct reward mecha-
+                        nisms: Default (quadratic penalty), Euclidean (potential-based), and Operational Regimes
+                        (discrete-logic based). We demonstrate the environment’s utility through Proximal Policy
+                        Optimization (PPO) experiments on high-dimensional tasks (up to 100 simultaneous re-
+                        sources), highlighting the impact of reward signal design on survival and stability in large
+                        action spaces.
+                    </p>
+                </details>
+            </article>
+        </section>
+        <footer>
+            <p>&copy; 2026 Gilzamir Gomes. Host on GitHub Pages.</p>
+        </footer>
+    </div>
+</body>
+</html>
